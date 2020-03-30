@@ -66,14 +66,14 @@ public class Ventana extends JFrame implements ActionListener, KeyListener, Wind
         this.campoDeEntrada.addKeyListener(this);
         this.entrada.addKeyListener(this);
         this.addWindowListener(this);
-        //agregar texto
-        JOptionPane.showMessageDialog(null,"Para poder iniciar, inicie con un saludo y su nombre,\n" +
+        //agregar texto  desagregue este mensaje
+       /* JOptionPane.showMessageDialog(null,"Para poder iniciar, inicie con un saludo y su nombre,\n" +
                 " y para poder finalizar despidace con un adios o bye.\n" +
                 "Este programa reconoce palabras como Tarea, Examen, Exposicione, Reporte,\n" +
                 "Reprobar y Evaluacion, la conversacion se hace en torno a esas palabras,\n" +
                 "trate de hacer concreto en su respuestas o preguntas de tal forma\n" +
                 "que contenga algunas de estas palabras claves.");
-        //-------
+        //-------*/
         this.t = false;
     }
 
